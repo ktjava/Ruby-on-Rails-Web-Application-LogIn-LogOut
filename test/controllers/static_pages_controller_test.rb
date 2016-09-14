@@ -2,7 +2,7 @@ require 'test_helper'
 
 class StaticPagesControllerTest < ActionDispatch::IntegrationTest
   def setup
-    @base_title = "Ruby on Rails Web Application Skelton"
+    @base_title = "Ruby on Rails Log In & Log Out Application"
   end
   test "should get home" do
     get root_url
